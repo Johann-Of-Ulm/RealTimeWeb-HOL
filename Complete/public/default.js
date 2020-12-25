@@ -2,7 +2,7 @@ var board;
 var game;
 var socket = io();
 
-window.onload = function () {initGame();};
+window.onload = function () {initGame()};
 
 
 
