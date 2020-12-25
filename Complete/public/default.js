@@ -4,12 +4,7 @@ var socket = io();
 
 window.onload = function () {initGame();};
 
-var fs = require('fs');
 
-fs.readFile('board.txt', 'utf8', function(err, data) {
-    if (err) throw err;
-    console.log(data);
-});
 
 var initGame = function() {
    var cfg = {
